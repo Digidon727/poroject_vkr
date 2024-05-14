@@ -1,0 +1,330 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Edification - Responsive Education HTML5 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/icon/favicon.ico">
+    <!-- all css here -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/css/slicknav.min.css">
+    <link rel="stylesheet" href="../assets/css/typography.css">
+    <link rel="stylesheet" href="../assets/css/default-css.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <!--color css-->
+    <link rel="stylesheet" id="triggerColor" href="../assets/css/triggerplate/color-0.css">
+    <!-- modernizr css -->
+    <script src="../assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            var docHeight = $(document).height();
+            var windowHeight = $(window).height(); // Добавлено получение высоты окна браузера
+
+            $(window).on('scroll', function (e) {
+                var scrollTop = $(window).scrollTop();
+                var scrollPercentage = (scrollTop * 100) / (docHeight - windowHeight); // Изменено вычисление прогресса
+
+                $('.nav-add_len').css('width', scrollPercentage + '%');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- preloader area start -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- prealoader area end -->
+
+    <!-- header area start -->
+    <header id="header">
+        <!-- header two area start -->
+        <div class="header-two">
+            <div class="container">
+                <div class="row align-items-center pb--20">
+                    <div class="col-lg-3 col-sm-4  d-block d-lg-none">
+                        <div class="logo">
+                            <a href="../users/account_user.html"><img src="../assets/images/logo1.svg" alt="logo"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-sm-6  offset-lg-1 d-none d-lg-block">
+                        <div class="main-menu menu-style2">
+                            <nav>
+                                <ul id="m_menu_active">
+                                    <li class="middle-logo ">
+                                        <a href="../users/account_user.html">
+                                            <img src="../assets/images/logo.svg" class="logo_left " alt="logo">
+                                        </a>
+                                    </li>
+                                    <li><a href="../users/courses_user.html">Главное</a></li>
+                                    <li><a href="../users/blog_user.html">Блок</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-8 col-lg-8 col-sm-6 col-10 p-2 mt-2">
+
+                        <div class="header-bottom-right-style-2">
+
+                            <ul>
+                                <li class="col-sm-3">
+                                    <p class="address email-info " href="#">users@gmail.com</p>
+                                </li>
+                                <li c><a class=" btn btn-light btn-round" href="#">Кабинет</a>
+                                </li>
+                                <li><a class="btn btn-light btn-round " href="#">Выход</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!-- Button trigger modal -->
+
+                    </div><!-- col-lg-2 -->
+                    <div class="col-sm-12 col-12 d-block d-lg-none">
+                        <div id="mobile_menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header two area end -->
+    </header>
+    <!-- header area end -->
+
+    <!-- Прогресс -->
+    <div class="nav_len ">
+        <div class="nav-add_len"></div>
+    </div>
+    <!-- Прогресс end-->
+
+    <!-- body overlay area start -->
+    <div class="body_overlay"></div>
+    <!-- body overlay area end -->
+    <!-- crumbs area start -->
+    <div class="crumbs-area">
+        <div class="container">
+            <div class="crumb-content">
+                <h4 class="crumb-title">Лекция 1</h4>
+            </div>
+        </div>
+    </div>
+    <!-- crumbs area end -->
+    <!-- course area start -->
+    <div class="course-area ptb--100">
+        <div class="container">
+            <div class="row">
+                <!-- course details start -->
+                <div class="col-lg-12 col-md-12">
+                    <div class="course-details">
+                        <div class="cs-thumb mb-5">
+                            <img src="../assets/images/course/course-details.jpg" alt="image">
+
+                            <div class="csd-hv-info has-color align-items-center d-none">
+                                <div class="course-dt-info">
+                                    <ul class="course-meta-details list-inline  w-100">
+                                        <li>
+                                            <p>Лекций</p>
+                                            <span>24</span>
+                                        </li>
+                                        <li>
+                                            <p>Тест</p>
+                                            <span>10 </span>
+                                        </li>
+                                        <li>
+                                            <p>Время</p>
+                                            <span>34 ч.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="cs-content">
+                            <div class="col-12 d-sm-flex  d-block ">
+                                <p class="admin">Автор: Admin</p>
+                                <p>Дата публикации: 20.10.24</p>
+                            </div>
+
+                            <h3 class="mb-4">Базовый курс по основам защиты данных</h3>
+                            <p>Данный курс предлагает комплексное погружение в сферу цифровой безопасности, предоставляя
+                                студентам необходимые знания и навыки для эффективного обеспечения безопасности
+                                информационных активов. В ходе обучения студенты ознакомятся с основными аспектами
+                                безопасности активов, инжиниринга безопасности, коммуникаций и сетевой безопасности,
+                                идентификации и управления доступом, оценки и тестирования безопасности, операций
+                                безопасности, а также безопасности разработки программного обеспечения. Курс
+                                обеспечивает практическую ориентацию, позволяя студентам развивать навыки анализа
+                                рисков, разработки безопасных систем, управления уязвимостями, а также эффективного
+                                реагирования на инциденты безопасности. Завершив данный курс, студенты будут готовы к
+                                успешной работе в области информационной безопасности и смогут активно участвовать в
+                                обеспечении защиты информационных ресурсов организаций
+
+                                Данный курс предлагает комплексное погружение в сферу цифровой безопасности,
+                                предоставляя
+                                студентам необходимые знания и навыки для эффективного обеспечения безопасности
+                                информационных активов. В ходе обучения студенты ознакомятся с основными аспектами
+                                безопасности активов, инжиниринга безопасности, коммуникаций и сетевой безопасности,
+                                идентификации и управления доступом, оценки и тестирования безопасности, операций
+                                безопасности, а также безопасности разработки программного обеспечения. Курс
+                                обеспечивает практическую ориентацию, позволяя студентам развивать навыки анализа
+                                рисков, разработки безопасных систем, управления уязвимостями, а также эффективного
+                                реагирования на инциденты безопасности. Завершив данный курс, студенты будут готовы к
+                                успешной работе в области информационной безопасности и смогут активно участвовать в
+                                обеспечении защиты информационных ресурсов организаций
+                                Данный курс предлагает комплексное погружение в сферу цифровой безопасности,
+                                предоставляя
+
+                                Данный курс предлагает комплексное погружение в сферу цифровой безопасности,
+                                предоставляя
+                                студентам необходимые знания и навыки для эффективного обеспечения безопасности
+                                информационных активов. В ходе обучения студенты ознакомятся с основными аспектами
+                                безопасности активов, инжиниринга безопасности, коммуникаций и сетевой безопасности,
+                                идентификации и управления доступом, оценки и тестирования безопасности, операций
+                                безопасности, а также безопасности разработки программного обеспечения. Курс
+                                обеспечивает практическую ориентацию, позволяя студентам развивать навыки анализа
+                                рисков, разработки безопасных систем, управления уязвимостями, а также эффективного
+                                реагирования на инциденты безопасности. Завершив данный курс, студенты будут готовы к
+                                успешной работе в области информационной безопасности и смогут активно участвовать в
+                                обеспечении защиты информационных ресурсов организаций
+                                Данный курс предлагает комплексное погружение в сферу цифровой безопасности,
+                                предоставляя
+                                студентам необходимые знания и навыки для эффективного обеспечения безопасности
+                                информационных активов. В ходе обучения студенты ознакомятся с основными аспектами
+                                безопасности активов, инжиниринга безопасности, коммуникаций и сетевой безопасности,
+                                идентификации и управления доступом, оценки и тестирования безопасности, операций
+                                безопасности, а также безопасности разработки программного обеспечения. Курс
+                                обеспечивает практическую ориентацию, позволяя студентам развивать навыки анализа
+                                рисков, разработки безопасных систем, управления уязвимостями, а также эффективного
+                                реагирования на инциденты безопасности. Завершив данный курс, студенты будут готовы к
+                                успешной работе в области информационной безопасности и смогут активно участвовать в
+                                обеспечении защиты информационных ресурсов организаций
+                                Данный курс предлагает комплексное погружение в сферу цифровой безопасности,
+                                предоставляя
+                                студентам необходимые знания и навыки для эффективного обеспечения безопасности
+                                информационных активов. В ходе обучения студенты ознакомятся с основными аспектами
+                                безопасности активов, инжиниринга безопасности, коммуникаций и сетевой безопасности,
+                                идентификации и управления доступом, оценки и тестирования безопасности, операций
+                                безопасности, а также безопасности разработки программного обеспечения. Курс
+                                обеспечивает практическую ориентацию, позволяя студентам развивать навыки анализа
+                                рисков, разработки безопасных систем, управления уязвимостями, а также эффективного
+                                реагирования на инциденты безопасности. Завершив данный курс, студенты будут готовы к
+                                успешной работе в области информационной безопасности и смогут активно участвовать в
+                                обеспечении защиты информационных ресурсов организаций
+                                Данный курс предлагает комплексное погружение в сферу цифровой безопасности,
+                                предоставляя
+                                студентам необходимые знания и навыки для эффективного обеспечения безопасности
+                                информационных активов. В ходе обучения студенты ознакомятся с основными аспектами
+                                безопасности активов, инжиниринга безопасности, коммуникаций и сетевой безопасности,
+                                идентификации и управления доступом, оценки и тестирования безопасности, операций
+                                безопасности, а также безопасности разработки программного обеспечения. Курс
+                                обеспечивает практическую ориентацию, позволяя студентам развивать навыки анализа
+                                рисков, разработки безопасных систем, управления уязвимостями, а также эффективного
+                                реагирования на инциденты безопасности. Завершив данный курс, студенты будут готовы к
+                                успешной работе в области информационной безопасности и смогут активно участвовать в
+                                обеспечении защиты информационных ресурсов организаций
+                                Данный курс предлагает комплексное погружение в сферу цифровой безопасности,
+                                предоставляя
+                                студентам необходимые знания и навыки для эффективного обеспечения безопасности
+                                информационных активов. В ходе обучения студенты ознакомятся с основными аспектами
+                                безопасности активов, инжиниринга безопасности, коммуникаций и сетевой безопасности,
+                                идентификации и управления доступом, оценки и тестирования безопасности, операций
+                                безопасности, а также безопасности разработки программного обеспечения. Курс
+                                обеспечивает практическую ориентацию, позволяя студентам развивать навыки анализа
+                                рисков, разработки безопасных систем, управления уязвимостями, а также эффективного
+                                реагирования на инциденты безопасности. Завершив данный курс, студенты будут готовы к
+                                успешной работе в области информационной безопасности и смогут активно участвовать в
+                                обеспечении защиты информационных ресурсов организаций
+                            </p>
+
+
+                            <div class="col-12">
+                                <button type="button" class="btn btn-light  btn_blog">Далее</button>
+                                <button type="button" class="btn btn-light  btn_blog">Назад</button>
+                                <a href="../users/courses_user.html" class="btn btn-light  btn_blog">На главную</a>
+
+                            </div>
+                            <div class="form-check form-check_box ">
+                                <label class="custom-control overflow-checkbox  ">
+                                    <input type="checkbox" class="overflow-control-input">
+                                    <span class="overflow-control-indicator"></span>
+                                    <span class="overflow-control-description">Отметить как прочитано</span>
+                                </label>
+                            </div>
+
+
+
+
+                            <div class="cs-post-share">
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- course area end -->
+
+
+
+    <!-- footer area start -->
+    <footer>
+        <div class="footer-top  has-color pt--50 pb--10">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-12 ">
+                        <div class="widget widget-company d-flex  justify-content-between align-items-center">
+                            <div><a href="../users/account_user.html"><img src="../assets/images/logo1.svg"
+                                        alt="image"></a></div>
+
+                            <div class="address">
+                                <h6>Business Email</h6>
+                                <p>kriptofort@gmail.com</p>
+                            </div>
+                            <div>
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->
+
+    <!-- jquery latest version -->
+    <script src="../assets/js/vendor/jquery-2.2.4.min.js"></script>
+    <!-- bootstrap 4 js -->
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <!-- others plugins -->
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="../assets/js/jquery.slicknav.min.js"></script>
+    <script src="../assets/js/plugins.js"></script>
+    <script src="../assets/js/scripts.js"></script>
+</body>
+
+</html>
