@@ -2611,7 +2611,9 @@ TODO
 	padding: 0;
 }
 /*прогресс*/
-
+.progress-bar {
+	background-color: #1e8183 !important;
+}
 /**/
 .page_404 {
 	font-size: 200px;
@@ -2622,6 +2624,7 @@ TODO
 .page_404_h2 {
 	color: #1e8183 !important;
 }
+
 /*Страница 404*/
 
 /*Карточки курса*/
