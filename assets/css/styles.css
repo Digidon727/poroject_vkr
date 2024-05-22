@@ -2787,7 +2787,7 @@ TODO
 	height: 15px;
 	border-bottom: 3px solid #1e8183;
 	position: fixed;
-	top: 95px;
+	top: 90px;
 	left: 0;
 	z-index: 10;
 	background: white;
@@ -2799,6 +2799,18 @@ TODO
 	height: 100%;
 	background: #1e8183;
 	transition: all 1s linear;
+}
+
+@media (max-width: 992px) {
+	.nav_len {
+		top: 160px;
+	}
+}
+
+@media (max-width: 540px) {
+	.nav_len {
+		top: 185px;
+	}
 }
 /* прогресс на лекции и статьи  end */
 
