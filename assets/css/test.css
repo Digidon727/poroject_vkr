@@ -10,6 +10,7 @@
 	z-index: 1;
 	background: url(../images/bg.jpg);
 	padding: 213px 0 0;
+	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }

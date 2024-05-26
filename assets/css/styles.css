@@ -2814,7 +2814,7 @@ TODO
 }
 /* прогресс на лекции и статьи  end */
 
-/*------------------------*/
+/* Отмечено как прочитано------------------------*/
 .form-check_box {
 	display: flex;
 	align-items: center;
@@ -2968,4 +2968,50 @@ TODO
 		font-size: 100px;
 		margin-bottom: 40px;
 	}
+}
+
+/*Блок с тестами*/
+
+.wrapper__box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.test__content-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	background: #1e8183;
+	border-radius: 15px;
+	width: 320px;
+	height: 100px;
+	transition: all 0.3s;
+	margin: 10px;
+}
+
+.test__content-box:hover {
+	background: #5aaeaf;
+	transform: scale(1.02);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	transition: all 0.4s;
+}
+
+.test__content-box a:hover {
+	color: #fff !important;
+}
+.test__content-box-title {
+	color: #fff;
+}
+.test__content-box-button {
+	width: 150px;
+	border: 2px solid #fff;
+	margin-top: 10px;
+	color: #fff;
+	border-radius: 15px;
+}
+
+.test__content-box-button:hover {
+	color: #000;
 }
